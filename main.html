@@ -1,0 +1,71 @@
+<html>
+    <style>
+        body {
+            background-color: black;
+        }
+        h1 {
+            color: crimson;
+            text-align: center;
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 30px;
+            padding-top: 70px;
+        }
+        h3 {
+            color: orangered;
+            text-align: center;
+            font-family: 'Courier New', Courier, monospace;
+        }
+        .revealButton {
+            text-align: center;
+        }
+        .progress {
+            display: none;
+        }
+        .footer {
+            color:red;
+            text-align: center;
+            font-family: 'Courier New', Courier, monospace;
+            padding-top: 100px;
+        }
+        .credits {
+            text-align: center;
+            color:maroon;
+            background-color: black;
+            border-color: black;
+        }
+        button {
+            color:gold;
+            background-color: black;
+            text-align: center;
+            width: 100px;
+            height: 40px;
+        }
+    </style>
+    <body>
+        <h1><b>A message has arrived...</b></h1>
+        <div id="progress" class="progress">
+            <progress id="progressBar" value="0" max="100"></progress>
+        </div>
+        <h3 id="message"></h3>
+        <div class="revealButton">
+            <button onclick="reveal()">Click to view</button>
+        </div>
+        <div class="footer">
+            <h3>Colored Hair Eradication League</h3>
+            <h3><b>Glory to House Bool</b></h3>
+        </div>
+        <div class="credits">
+            <button onclick="giveCreditWhereCreditIsDue()">About</button>
+        </div>
+    </body>
+    <script>
+        function reveal() {
+            let encodedMessage = document.getElementById("message")
+            encodedMessage.innerHTML = "To our esteemed rivals, the esteemed members of the Order of 33, <br> We received your declaration of war with equal parts bemusement and anticipation. While we appreciate the enthusiasm for conflict, we must remind you that House Bool is not one to shy away from a challenge, especially when it involves a bit of friendly competition. <br> With jest and jesters, <br> House Bool"
+        }
+
+        function giveCreditWhereCreditIsDue() {
+            window.alert("Created by [an encoded version of Tysonius]")
+        }
+    </script>
+</html>
