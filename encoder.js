@@ -29,4 +29,4 @@ function Main(message, alphabet, shift) { // Main function for the encoder. Inpu
 }
 
 // User input.
-Main("k$8K$LM jpzjv F$F9$KLg 1opz pz h kljshyh1pvu vm 4hyg o8A8A8A8Ag wE$8L$ @HG M A80D NLg zpujlyls6g kth", "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890@$_!", 33)
+Main("Tyson Comfort", "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890@$_!", 2024)

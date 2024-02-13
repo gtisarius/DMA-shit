@@ -48,6 +48,13 @@
         .link {
             text-align: center;
         }
+        .logo {
+            visibility: hidden;
+            display: none;
+            margin-left: auto;
+            margin-right: auto;
+            width: 50%;
+        }
     </style>
     <body>
         <h1><b>A message has arrived...</b></h1>
@@ -62,8 +69,10 @@
         <div class="link">
             <a href="NeverGonnaGiveYouUp.mp4" download="hint.mp4">Need a hint?</a>
         </div>
+        <br>
+        <img id="houseBoolLogo" src="./houseBool.jpg" class="logo">
         <div class="footer">
-            <h3>Colored Hair Eradication League</h3>
+            <h3>Anti-Colored Hair Action</h3>
             <h3><b>Glory to House Bool</b></h3>
         </div>
         <div class="credits">
@@ -77,7 +86,10 @@
         }
 
         function giveCreditWhereCreditIsDue() {
-            window.alert("Created by [an encoded version of Tysonius]")
+            window.alert("If you are wondering who created this awesome webpage, look no further than the relative of Morgan Adams")
+            let imageReveal = document.getElementById("houseBoolLogo")
+            imageReveal.style.visibility = "visible"
+            imageReveal.style.display = "block"
         }
     </script>
 </html>
