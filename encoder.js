@@ -29,4 +29,11 @@ function Main(message, alphabet, shift) { // Main function for the encoder. Inpu
 }
 
 // User input.
-Main("Tyson Comfort", "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890@$_!", 2024)
+
+//Main("We have nothing to offer but blood, time, and sweat.", "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890@$_!", 33)
+//Main("\"We shall fight on the beaches, we shall fight on the landing grounds, we shall fight in the fields and in the streets, we shall fight in the hills; we shall never surrender.\"\n- Winston Churchill,", "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890@$_!", 33)
+//Main("For the next dark months, we will wage a war never seen by any force of man. For we are House Bool.", "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890@$_!", 33)
+//Main("You may take our lives...", "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890@$_!", 33)
+//Main("But you'll never take...", "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890@$_!", 33)
+//Main("OUR FREEDOM!", "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890@$_!", 33)
+Main("GLORIA DOMUS BOOL!", "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890@$_!", 33)
